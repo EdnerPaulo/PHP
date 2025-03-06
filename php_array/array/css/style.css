@@ -1,0 +1,27 @@
+*{
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 15vh;
+    background-color: rgb(24, 24, 31);
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin: 100px;
+    text-align: center; 
+}
+.menu ul{
+    list-style: none;
+}
+.menu li {
+    display: flex ;
+    position: relative; 
+    padding: 5px;
+}
+.menu a:hover {
+    background-color: #e0f14b; 
+}
